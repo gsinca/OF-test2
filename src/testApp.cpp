@@ -34,7 +34,7 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
 
-	ofSetHexColor(0xFFFFFF); //another bug
+	ofSetHexColor(0xFFFFFF); //another buggy
 
     fingerMovie.draw(20,20);
     
