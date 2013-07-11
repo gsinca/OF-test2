@@ -34,8 +34,7 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
 
-	ofSetHexColor(0xFFFFFF); //another buggy
-
+	ofSetHexColor(0xFFFFFF); // a useless comment
     fingerMovie.draw(20,20);
     
     int currentFrame = fingerMovie.getCurrentFrame();
